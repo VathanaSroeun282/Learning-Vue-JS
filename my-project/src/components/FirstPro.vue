@@ -230,6 +230,7 @@ form div:nth-child(6) button:nth-child(1), form div:nth-child(6) button:nth-chil
 }
 form div:nth-child(6) button:nth-child(1):hover{
     background-color: rgb(109, 109, 0);
+    color : white;
 }
 form div:nth-child(6) button:nth-child(2){
     color : white;

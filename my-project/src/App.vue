@@ -1,14 +1,17 @@
 <template>
   <div>
       <!-- <HelloWorld /> -->
-      <FirstPro />
+      <!-- <FirstPro /> -->
       <!-- <ConditionRender /> -->
+      <SecondPro />
   </div>
 </template>
 
 <script>
+import SecondPro from './components/SecondPro.vue';
+
 // import ConditionRender from './components/ConditionRender.vue';
-import FirstPro from './components/FirstPro.vue';
+// import FirstPro from './components/FirstPro.vue';
 export default {
     data (){
       return {
@@ -21,7 +24,8 @@ export default {
       }    
     },
     components :{
-      FirstPro,
+      SecondPro
+      // FirstPro,
       // ConditionRender
     }
 }
