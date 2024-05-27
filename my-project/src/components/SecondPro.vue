@@ -20,8 +20,8 @@ export default {
                 this.myStatus = !this.myStatus;
             }
             else{
-                this.myStatus = !this.myStatus;
                 this.myStyle = 'titleStyleRed';
+                this.myStatus = !this.myStatus;
             }
         }
     }
