@@ -11,7 +11,7 @@
 
 <script>
 import ThirdPro from './components/ThirdPro.vue';
-import ThirdPro_v2 from './ThirdPro_v2.vue';
+import ThirdPro_v2 from './components/ThirdPro_v2.vue';
 
 // import SecondPro from './components/SecondPro.vue';
 
