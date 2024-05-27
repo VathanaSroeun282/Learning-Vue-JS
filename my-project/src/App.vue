@@ -5,16 +5,17 @@
       <!-- <ConditionRender /> -->
       <!-- <SecondPro /> -->
       <!-- <ThirdPro /> -->
-      <ThirdPro_v2 />
+      <!-- <ThirdPro_v2 /> -->
+      <FourthPro />
   </div>
 </template>
 
 <script>
-import ThirdPro from './components/ThirdPro.vue';
-import ThirdPro_v2 from './components/ThirdPro_v2.vue';
+import FourthPro from './components/FourthPro.vue';
 
+// import ThirdPro from './components/ThirdPro.vue';
+// import ThirdPro_v2 from './components/ThirdPro_v2.vue';
 // import SecondPro from './components/SecondPro.vue';
-
 // import ConditionRender from './components/ConditionRender.vue';
 // import FirstPro from './components/FirstPro.vue';
 export default {
@@ -29,11 +30,12 @@ export default {
       }    
     },
     components :{
-      ThirdPro_v2
+      // ThirdPro_v2
       // ThirdPro
       // SecondPro
       // FirstPro,
       // ConditionRender
+      FourthPro
     }
 }
 </script>
