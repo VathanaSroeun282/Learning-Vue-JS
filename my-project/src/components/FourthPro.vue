@@ -56,7 +56,7 @@
           </div>
           <div>
             <button type="submit">Submit</button>
-            <button type="button" @click="Close">Close</button>
+            <button type="button" @click="handleClickAddUser">Close</button>
           </div>
         </form>
 
@@ -148,10 +148,6 @@
       handleAdd(){
         this.isVisibleForAdd = !this.isVisibleForAdd;
         this.myInfo.push({...this.inputValue});
-        // this.inputValue.Email = "";
-        // this.inputValue.ID = 0;
-        // this.inputValue.Mobile = "";
-        // this.inputValue.Name = "";
       },
       Close(){
         this.isVisible =! this.isVisible;
