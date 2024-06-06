@@ -8,11 +8,13 @@
       <!-- <ThirdPro_v2 /> -->
       <!-- <FourthPro /> -->
       <!-- <FivethPro /> -->
-      <SixthPro />
+      <!-- <SixthPro /> -->
+      <BindingDataTOAttribute />
   </div>
 </template>
 
 <script>
+import BindingDataTOAttribute from './components/BindingDataTOAttribute.vue';
 import FivethPro from './components/FivethPro.vue';
 import FourthPro from './components/FourthPro.vue';
 import SixthPro from './components/SixthPro.vue';
@@ -41,7 +43,8 @@ export default {
       // ConditionRender
       // FourthPro
       // FivethPro
-      SixthPro
+      // SixthPro
+      BindingDataTOAttribute
     }
 }
 </script>
