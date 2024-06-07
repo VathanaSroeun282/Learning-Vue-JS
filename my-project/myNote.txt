@@ -1,3 +1,71 @@
 https://youtu.be/1GNsWa_EZdw?si=QzORC63SanZkYDQB&t=1462
 
 Lerning vue js on YouTube
+
+Here's how you can set up routing using Vue Router:
+1/
+Install Vue Router if you haven't already:
+bash
+Copy code
+
+npm install vue-router
+
+
+2/
+Import Vue Router and create routes in your main Vue.js file (usually main.js):
+javascript
+Copy code
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import App from './App.vue'
+import Home from './components/Home.vue'
+import Contact from './components/Contact.vue'
+import About from './components/About.vue'
+
+Vue.use(VueRouter)
+
+const routes = [
+  { path: '/', component: Home },
+  { path: '/Contact', component: Contact },
+  { path: '/About', component: About }
+]
+
+const router = new VueRouter({
+  routes
+})
+
+new Vue({
+  router,
+  render: h => h(App),
+}).$mount('#app')
+
+3/
+Create separate Vue components for each page (e.g., Home.vue, Contact.vue, About.vue). These components should contain the HTML structure and content for each page.
+
+4/
+Modify your navigation links to use router-link instead of <a> tags:
+
+html
+Copy code
+<li v-for="(myLink, index) in link" :key="index">
+  <router-link :to="hyperLink[index].path" class="text-xl">{{ myLink }}</router-link>
+</li>
+In your App.vue or main Vue component, use <router-view> to render the component for the current route:
+html
+Copy code
+<template>
+  <div>
+    <header>
+      <nav class="w-full h-16 flex items-center pr-2 bg-gray-400 justify-end">
+        <ul>
+          <li v-for="(myLink, index) in link" :key="index">
+            <router-link :to="hyperLink[index].path" class="text-xl">{{ myLink }}</router-link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <router-view></router-view>
+    </main>
+  </div>
+</template>

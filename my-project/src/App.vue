@@ -10,7 +10,8 @@
       <!-- <FivethPro /> -->
       <!-- <SixthPro /> -->
       <!-- <BindingDataTOAttribute /> -->
-      <LoopVue />
+      <!-- <LoopVue /> -->
+       <LinkTo ></LinkTo>
   </div>
 </template>
 
@@ -20,7 +21,7 @@ import FivethPro from './components/FivethPro.vue';
 import FourthPro from './components/FourthPro.vue';
 import LoopVue from './components/LoopVue.vue';
 import SixthPro from './components/SixthPro.vue';
-
+import LinkTo from './components/LinkTo.vue';
 // import ThirdPro from './components/ThirdPro.vue';
 // import ThirdPro_v2 from './components/ThirdPro_v2.vue';
 // import SecondPro from './components/SecondPro.vue';
@@ -47,7 +48,8 @@ export default {
       // FivethPro
       // SixthPro
       // BindingDataTOAttribute
-      LoopVue
+      // LoopVue
+      LinkTo
     }
 }
 </script>
