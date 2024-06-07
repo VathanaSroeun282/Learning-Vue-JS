@@ -9,7 +9,8 @@
       <!-- <FourthPro /> -->
       <!-- <FivethPro /> -->
       <!-- <SixthPro /> -->
-      <BindingDataTOAttribute />
+      <!-- <BindingDataTOAttribute /> -->
+      <LoopVue />
   </div>
 </template>
 
@@ -17,6 +18,7 @@
 import BindingDataTOAttribute from './components/BindingDataTOAttribute.vue';
 import FivethPro from './components/FivethPro.vue';
 import FourthPro from './components/FourthPro.vue';
+import LoopVue from './components/LoopVue.vue';
 import SixthPro from './components/SixthPro.vue';
 
 // import ThirdPro from './components/ThirdPro.vue';
@@ -44,7 +46,8 @@ export default {
       // FourthPro
       // FivethPro
       // SixthPro
-      BindingDataTOAttribute
+      // BindingDataTOAttribute
+      LoopVue
     }
 }
 </script>
