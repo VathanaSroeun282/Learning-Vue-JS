@@ -1,43 +1,30 @@
 <template>
-  <div>
-      <!-- <HelloWorld /> -->
-      <!-- <FirstPro /> -->
-      <!-- <ConditionRender /> -->
-      <!-- <SecondPro /> -->
-      <!-- <ThirdPro /> -->
-      <!-- <ThirdPro_v2 /> -->
-      <!-- <FourthPro /> -->
-      <!-- <FivethPro /> -->
-      <!-- <SixthPro /> -->
-      <!-- <BindingDataTOAttribute /> -->
-      <!-- <LoopVue /> -->
-       <LinkTo ></LinkTo>
-  </div>
+  <h1>Hello App!</h1>
+  <p>
+    <strong>Current route path:</strong> {{ $route.fullPath }}
+  </p>
+  <nav>
+    <RouterLink to="/">Go to Home</RouterLink>
+    <RouterLink to="/about">Go to About</RouterLink>
+  </nav>
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <script>
-import BindingDataTOAttribute from './components/BindingDataTOAttribute.vue';
-import FivethPro from './components/FivethPro.vue';
-import FourthPro from './components/FourthPro.vue';
-import LoopVue from './components/LoopVue.vue';
-import SixthPro from './components/SixthPro.vue';
-import LinkTo from './components/LinkTo.vue';
+// import BindingDataTOAttribute from './components/BindingDataTOAttribute.vue';
+// import FivethPro from './components/FivethPro.vue';
+// import FourthPro from './components/FourthPro.vue';
+//import LoopVue from './components/LoopVue.vue';
+// import SixthPro from './components/SixthPro.vue';
 // import ThirdPro from './components/ThirdPro.vue';
 // import ThirdPro_v2 from './components/ThirdPro_v2.vue';
 // import SecondPro from './components/SecondPro.vue';
 // import ConditionRender from './components/ConditionRender.vue';
 // import FirstPro from './components/FirstPro.vue';
+// import LinkTo from './components/LinkTo.vue';
 export default {
-    data (){
-      return {
-        count : 0,
-      }
-    },
-    methods: {
-      clickMe(){
-        count ++;
-      }    
-    },
     components :{
       // ThirdPro_v2
       // ThirdPro
@@ -49,7 +36,7 @@ export default {
       // SixthPro
       // BindingDataTOAttribute
       // LoopVue
-      LinkTo
+      // LinkTo
     }
 }
 </script>
