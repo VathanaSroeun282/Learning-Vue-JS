@@ -14,14 +14,17 @@
 
 <template>
     <div>
-        <NavBar />
-        <Home />
+        <!-- <NavBar />
+        <Home /> -->
+        <LinkTo_v2 />
     </div>
 </template>
 
 <script>
-import Home from './components/Link To File v2/Home.vue';
-import NavBar from './components/Link To File v2/NavBar.vue';
+import LinkTo_v2 from './components/LinkTo_v2.vue';
+
+// import Home from './components/Link To File v2/Home.vue';
+// import NavBar from './components/Link To File v2/NavBar.vue';
 
 // import BindingDataTOAttribute from './components/BindingDataTOAttribute.vue';
 // import FivethPro from './components/FivethPro.vue';
@@ -47,7 +50,8 @@ export default {
       // BindingDataTOAttribute
       // LoopVue
       // LinkTo
-      Home,NavBar
+      // Home,NavBar
+      LinkTo_v2
     }
 }
 </script>
