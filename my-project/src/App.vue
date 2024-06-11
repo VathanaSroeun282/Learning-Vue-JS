@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <h1>Hello App!</h1>
   <p>
     <strong>Current route path:</strong> {{ $route.fullPath }}
@@ -10,9 +10,19 @@
   <main>
     <RouterView />
   </main>
+</template> -->
+
+<template>
+    <div>
+        <NavBar />
+        <Home />
+    </div>
 </template>
 
 <script>
+import Home from './components/Link To File v2/Home.vue';
+import NavBar from './components/Link To File v2/NavBar.vue';
+
 // import BindingDataTOAttribute from './components/BindingDataTOAttribute.vue';
 // import FivethPro from './components/FivethPro.vue';
 // import FourthPro from './components/FourthPro.vue';
@@ -37,6 +47,7 @@ export default {
       // BindingDataTOAttribute
       // LoopVue
       // LinkTo
+      Home,NavBar
     }
 }
 </script>
