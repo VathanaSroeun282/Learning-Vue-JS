@@ -16,9 +16,9 @@ const routerPro1 = [
         component : Services
     },
     {
-        path : "/Portfollo",
-        name : "Portfollo",
-        component : Portfollo
+        path : "/Training",
+        name : "Training",
+        component : Training
     },
     {
         path : "/Team",
@@ -26,8 +26,8 @@ const routerPro1 = [
         component : Team
     },
     {
-        path : "/Contact",
-        name : "Contact",
+        path : "/Contact Us",
+        name : "Contact Us",
         component : Contact
     }
 ];
