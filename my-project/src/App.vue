@@ -16,12 +16,15 @@
     <div>
         <!-- <NavBar />
         <Home /> -->
-        <LinkTo_v2 />
+        <!-- <LinkTo_v2 /> -->
+         <Pro1 />
     </div>
 </template>
 
 <script>
-import LinkTo_v2 from './components/LinkTo_v2.vue';
+import Pro1 from './components/Project Next/Pro1/Pro1.vue';
+
+// import LinkTo_v2 from './components/LinkTo_v2.vue';
 
 // import Home from './components/Link To File v2/Home.vue';
 // import NavBar from './components/Link To File v2/NavBar.vue';
@@ -51,7 +54,8 @@ export default {
       // LoopVue
       // LinkTo
       // Home,NavBar
-      LinkTo_v2
+      // LinkTo_v2
+      Pro1
     }
 }
 </script>
