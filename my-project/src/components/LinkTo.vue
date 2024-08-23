@@ -1,10 +1,10 @@
-<!-- <template>
+<template>
   <div>
     <header>
       <nav class="w-full h-16 flex items-center pr-2 bg-gray-400 justify-end">
-        <ul>
-          <li v-for="item in hyperLink" :key="item.path">
-            <router-link :to="item" class="text-xl">{{ item.name }}</router-link>
+        <ul class="flex px-2">
+          <li class="px-2" v-for="item in hyperLink" :key="item.path">
+            <router-link :to="item.path" class="text-xl hover:cursor-pointer">{{ item.name }}</router-link>
           </li>
         </ul>
       </nav>
@@ -15,6 +15,8 @@
   </div>
 </template>
 
+
+
 <script>
 import Home from './Link To File/Home.vue';
 import About from './Link To File/About.vue';
@@ -24,7 +26,7 @@ export default {
   data() {
     return {
       hyperLink: [
-        { name: 'Home', path: '/Home' },
+        { name: 'Home', path: '/' },
         { name: 'Contact', path: '/Contact' },
         { name: 'About', path: '/About' }
       ],
@@ -36,8 +38,8 @@ export default {
     Home, Contact, About
   }
 }
-</script> -->
-
+</script>
+<!-- 
 <template>
   <div>
     <routerLink to="/">Home</routerLink>
@@ -45,4 +47,4 @@ export default {
     <routerLink to="/Contact">Contact</routerLink>
   </div>
   <routerView></routerView>
-</template>
+</template> -->
