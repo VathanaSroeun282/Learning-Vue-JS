@@ -18,16 +18,16 @@
         </div>
   
         <!-- Desktop Navigation Links -->
-        <ul class="hidden md:flex gap-4 md:gap-10 justify-center items-center">
+        <ul class="hidden md:flex gap-4 md:gap-10 justify-center items-center bg-blue-400">
           <li
-            class="hover:opacity-85 hover:cursor-pointer"
+            class="hover:opacity-85 hover:cursor-pointer "
             v-for="(item, index) in myData"
             :key="index"
           >
             <span v-if="item.isButton">
               <router-link :to="item.path">
                 <button
-                  class="px-3 md:px-5 py-1 md:py-2 rounded-full hover:bg-blue-600 bg-blue-400 text-white text-sm md:text-base"
+                  class="px-3 md:px-5 py-1 md:py-2 rounded-full hover:bg-blue-600 bg-blue-400 text-white text-sm md:text-base "
                 >
                   {{ item.name }}
                 </button>
