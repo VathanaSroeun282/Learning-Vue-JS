@@ -1,14 +1,14 @@
 <template>
     <div class="bg-gray-100">
         <div class="text-center py-5">
-            <h1 class="font-bold text-4xl">{{ dataInfo.title }}</h1>
+            <h1 class="font-bold text-4xl max-sm:w-[85%] m-auto">{{ dataInfo.title }}</h1>
             <hr class="m-auto w-[70px] my-4 bg-blue-400 pt-[3px]">
             <p>{{ dataInfo.subTitle }}</p>
         </div>
         <!------------------------------------------------------>
         <div>  
-            <div class="m-auto w-[80%] flex justify-between" v-for="(value, key) in dataInfo.question" :key="key">
-                <div class="flex flex-wrap items-center w-full border px-4 py-2 rounded-sm my-2">
+            <div class="m-auto w-[80%] max-sm:w-[85%] flex justify-between" v-for="(value, key) in dataInfo.question" :key="key">
+                <div class="flex flex-wrap items-center w-full border-2 border-stone-400  px-4 py-2 rounded-sm my-2">
                     <div class="flex justify-between w-full items-center py-2">
                         <p :class="{'w-full': true, 'text-blue-500 transition-all delay-75': showAnswer[key]}">
                             {{ value.question }}

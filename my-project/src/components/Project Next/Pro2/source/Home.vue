@@ -36,6 +36,6 @@ export default {
             heroImg  : heroImg,
             heroFeartureServices : dataInformation.heroData.heroFeature
         }
-    }
+    },
 }
 </script>

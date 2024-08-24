@@ -34,11 +34,11 @@
                 <div class="w-[45%] max-sm:w-[85%] max-sm:-mb-10 max-sm:mt-5">
                     <img class="rounded-xl shadow-md" :src=dataInfo.feartureDetail.cart1.cartImg alt="c-1">
                 </div>
-                <div class="w-[50%] max-sm:w-[94%] h-full  flex justify-center items-center">
-                    <div class="w-[90%] h-[50%] max-sm:h-full bg-blue-100 transition-all delay-200 rounded-xl p-8">
+                <div class="w-[50%] max-sm:w-[94%] h-full flex justify-center items-center">
+                    <div class="w-[90%] h-[50%] max-sm:h-full bg-blue-100 transition-all delay-200 rounded-xl p-8 max-sm:p-5">
                         <h2 class="text-3xl font-bold ">{{ dataInfo.feartureDetail.cart1.heading }}</h2>
                         <p class="my-2">{{ dataInfo.feartureDetail.cart1.detail }}</p>
-                        <button class="font-bold my-2 px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg">{{ dataInfo.feartureDetail.cart1.btnName }}</button>
+                        <button class="font-bold px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg">{{ dataInfo.feartureDetail.cart1.btnName }}</button>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                             <img class="w-5 mt-[0.5px]" :src="icon" :alt="key">
                             <span class="px-2">{{ dataInfo.feartureDetail.cart2.detailOption[key] }}</span>
                         </p>
-                        <button class="font-bold my-5 px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg">{{ dataInfo.feartureDetail.cart1.btnName }}</button>
+                        <button class="font-bold my-5 max-sm:my-2 px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg">{{ dataInfo.feartureDetail.cart1.btnName }}</button>
                     </div>
                 </div>
             </div>

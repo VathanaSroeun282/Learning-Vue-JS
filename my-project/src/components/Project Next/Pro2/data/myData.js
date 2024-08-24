@@ -43,6 +43,15 @@ import imgTestimonail5 from './../img/Testimonails-img-5.jpg';
 import iconCartContactLocationBlack from './../img/icon/iconContact-1.png';
 import iconCartContactPhoneBlack from './../img/icon/iconContact-2.png';
 import iconCartContactEmailBlack from './../img/icon/iconContact-3.png';
+import XBlue from './../img/twitter-blue.png';
+import XBlack from './../img/twitter-black.png';
+import FacebookBlue from './../img/facebook-blue.png';
+import FaceBookBlack from './../img/facebook-black.png';
+import InstagramBlue from './../img/instagram-blue.png';
+import InstagramBlack from './../img/instagram-black.png';
+import LinkedInBlue from './../img/linkedin-blue.png';
+import LinkedInBlack from './../img/linkedin-black.png';
+
 const styleWithIconCross = ['text-gray-500',' line-through'];
 export const dataInformation = {
     heroData : {
@@ -392,6 +401,25 @@ export const dataInformation = {
                 cartSubTitle : 'info@example.com'
             }
         ]
+    },
+    footerData: {
+        icon: {
+            XIcon : {
+                black:XBlack,
+                blue: XBlue
+            },
+            FacebookIcon : {
+                black:FaceBookBlack,
+                blue: FacebookBlue
+            },
+            InstagramIcon : {
+                black:InstagramBlack,
+                blue: InstagramBlue
+            },
+            LinkedInIcon : {
+                black:LinkedInBlack,
+                blue: LinkedInBlue
+            } 
+        }
     }
-      
 };

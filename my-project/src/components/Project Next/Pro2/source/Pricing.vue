@@ -3,11 +3,11 @@
         <div class="text-center">
             <h1 class="font-bold text-4xl">{{ dataInfo.title }}</h1>
             <hr class="m-auto w-[70px] mt-4 bg-blue-400 pt-[3px]">
-            <p class="py-4">{{ dataInfo.subTitle }}</p>
+            <p class="py-4 max-sm:w-[85%] m-auto">{{ dataInfo.subTitle }}</p>
         </div>
         <div class="w-[85%] m-auto">
-            <div class="flex justify-between items-center">
-                <div class="w-[32%] h-auto bg-blue-100 rounded-md px-5 pb-8" v-for="(value, index) in dataInfo.textStyle" :key="index">
+            <div class="max-sm:flex-col flex justify-between items-center">
+                <div class="w-[32%] max-sm:w-full max-sm:mb-4 h-auto bg-blue-100 rounded-md px-5 pb-8" v-for="(value, index) in dataInfo.textStyle" :key="index">
                     <div class="w-full my-5 text-end">
                         <span :class="{
                             'bg-blue-600 text-white font-bold px-3 py-1 rounded-lg': true,
@@ -59,7 +59,6 @@
 import { dataInformation } from '../data/myData';
 import FrequencyQues from './FrequencyQues.vue';
 import Testimonails from './Testimonails.vue';
-// import Testiminails from './Testiminails.vue';
 export default {
     data(){
         return{
