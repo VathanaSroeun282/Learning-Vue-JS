@@ -1,6 +1,6 @@
 <template>
   <!-- Container -->
-  <div class="w-[95%] max-sm:w-[85%] pb-8 m-auto">
+  <div class="w-[95%] max-sm:w-[85%] pb-8 m-auto mt-10">
     <hr class="py-5" />
     <!-- footer detail -->
     <div class="w-full flex max-sm:block justify-center">
